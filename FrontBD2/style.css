@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+form button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+form button[type="button"] {
+    background-color: #f44336;
+    margin-top: 10px;
+}
+
+/* Lista de productos */
+#productos-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.producto span {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilo para productos con stock bajo */
+.stock-bajo {
+    background-color: #ffcccc;
+    color: #b30000;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.edit {
+    background-color: #ffb84d;
+    color: white;
+    margin-left: 10px;
+}
+
+button.delete {
+    background-color: #ff3333;
+    color: white;
+    margin-left: 10px;
+}
